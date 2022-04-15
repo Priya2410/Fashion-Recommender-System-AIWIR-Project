@@ -1,12 +1,12 @@
 # Fashion-Recommender-System-AIWIR-Project
 
-# Dataset Used : https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
+### Dataset Used : https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
 
-# https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small
+### https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small
 
-# Technologies Used : Deeplearning - CNN , Tranfer Learning ( ResNet50)
+### Technologies Used : Deeplearning - CNN , Tranfer Learning ( ResNet50)
 
-# We directly make use of ResNet50
+### We directly make use of ResNet50
 
 # Overall Approach :
 - Import the model [ CNN Model - ResNet ]
