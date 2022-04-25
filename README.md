@@ -85,10 +85,9 @@ The given recommender system would recommend 5 top items to the user based on th
 - Perform euclidean / cosine similarity 
 - Provide recommendations.
 
+### OUTPUTS :
 
-
-
-
-
+<img width="990" alt="Screenshot 2022-04-25 at 7 34 23 AM" src="https://user-images.githubusercontent.com/56394628/165008930-b44733bb-128b-4672-b5e4-8cdcfc9f52ae.png">
+<img width="672" alt="Screenshot 2022-04-25 at 7 34 04 AM" src="https://user-images.githubusercontent.com/56394628/165008951-869963de-ab6a-4091-a646-4b9ebb416ca1.png">
 
 
