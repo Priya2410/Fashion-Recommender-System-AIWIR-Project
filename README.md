@@ -71,17 +71,22 @@ RAM : Minimum 2GB
 The given recommender system would recommend 5 top items to the user based on the given image by the user.
 
 # Overall Approach :
-- Import the model [ CNN Model - ResNet ]
-- It has been trained already on a dataset called - ImageNet
-- The model is present in Keras.
-- This ResNet model is used for Feature Extraction.
-- The dataset has 44,000 images
-- The image uploaded by the user -> feature extraction -> check with dataset and recommend.
-- Model based approach of recommendation ( Collaborative Filtering)
-- The features -> 2048 for each image
-- Once the features are extracted -> export the features
-- Provide the recommendations
-- We'll use these features -> the feature vector and compare it with the feature vector of the new image and compare them using KNN and get the nearest neighbours and recommend it.
+- Basically the user will upload an image , the image would be processed and we’ll get similar images , like for example you liked some product , you’ll upload the image and get similar images.
+
+- This same technique is used in Pinterest , Amazon , Google etc .
+
+- This technique is called : Reverse Image Search.
+
+### Plan of the project :
+- Import the model ( resnet )
+- Extract features from the images. ( using resnet )( like for each image in 44k images , we extract features ) , ( so these features can be used for the comparison )
+- For every image we extract 2048 features 
+- Export the features.
+- Perform euclidean / cosine similarity 
+- Provide recommendations.
+
+
+
 
 
 
